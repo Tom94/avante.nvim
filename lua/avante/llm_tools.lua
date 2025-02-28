@@ -611,6 +611,7 @@ M._tools = {
   },
   {
     name = "python",
+    enabled = function() return false end,
     description = "Run python code",
     param = {
       type = "table",
@@ -643,6 +644,7 @@ M._tools = {
   },
   {
     name = "git_diff",
+    enabled = function() return false end,
     description = "Get git diff for generating commit message",
     param = {
       type = "table",
@@ -670,6 +672,7 @@ M._tools = {
   },
   {
     name = "git_commit",
+    enabled = function() return false end,
     description = "Commit changes with the given commit message",
     param = {
       type = "table",
@@ -853,6 +856,7 @@ M._tools = {
   },
   {
     name = "create_file",
+    enabled = function() return false end,
     description = "Create a new file",
     param = {
       type = "table",
@@ -880,6 +884,7 @@ M._tools = {
   },
   {
     name = "rename_file",
+    enabled = function() return false end,
     description = "Rename a file",
     param = {
       type = "table",
@@ -912,6 +917,7 @@ M._tools = {
   },
   {
     name = "delete_file",
+    enabled = function() return false end,
     description = "Delete a file",
     param = {
       type = "table",
@@ -939,6 +945,7 @@ M._tools = {
   },
   {
     name = "create_dir",
+    enabled = function() return false end,
     description = "Create a new directory",
     param = {
       type = "table",
@@ -966,6 +973,7 @@ M._tools = {
   },
   {
     name = "rename_dir",
+    enabled = function() return false end,
     description = "Rename a directory",
     param = {
       type = "table",
@@ -998,6 +1006,7 @@ M._tools = {
   },
   {
     name = "delete_dir",
+    enabled = function() return false end,
     description = "Delete a directory",
     param = {
       type = "table",
@@ -1025,6 +1034,7 @@ M._tools = {
   },
   {
     name = "bash",
+    enabled = function() return false end,
     description = "Run a bash command in a directory",
     param = {
       type = "table",
